@@ -1,0 +1,28 @@
+{
+  "name": "backend-web-dev",
+  "version": "1.0.0",
+  "description": "a tutorial for backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmadd2005-lang/Backend-Web-Dev.git"
+  },
+  "author": "Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmadd2005-lang/Backend-Web-Dev/issues"
+  },
+  "homepage": "https://github.com/Ahmadd2005-lang/Backend-Web-Dev#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.20.0",
+    "nodemon": "^3.1.11"
+  }
+}
